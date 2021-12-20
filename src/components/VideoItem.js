@@ -4,7 +4,7 @@ const VideoItem = (props) => {
   const { video, onVideoSelect } = props
   return (
     <li>
-      <a href='#' onClick={() => onVideoSelect(video)}>{video.name}</a>
+      <a href='#' onClick={() => onVideoSelect(video)}>{video.snippet.title}</a>
     </li>
   )
 }

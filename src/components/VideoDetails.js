@@ -7,6 +7,6 @@ export default function VideoDetails(props) {
 
   // you can't console.log inside JSX!!!
   return (
-    <h1>{video.name}</h1>
+    <h1>{video.snippet.title}</h1>
   )
 }
